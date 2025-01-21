@@ -94,7 +94,7 @@
   line-height: 18px;
 }
 .youmight-card-lower-div > p,
-span {
+.youmight-card-lower-div>span {
   width: 100%;
   height: 18px;
   overflow: hidden;
