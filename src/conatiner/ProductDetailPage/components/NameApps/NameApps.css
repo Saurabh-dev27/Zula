@@ -1,0 +1,64 @@
+.nameapps{
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nameapps-left{
+    width: 47.1rem;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.nameapps-left>img{
+    width: 140px;
+    height: 140px;
+    
+}
+.nameapp-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    width: 37.5rem;
+    height: 50px;
+    /* background-color: red; */
+}
+.nameapp-left-content>h3{
+    /* overflow: hidden; */
+color: var(--Base-100, #0A0A0A);
+/* text-overflow: ellipsis; */
+    font-family: "Plus Jakarta Sans";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+}
+.nameapp-left-content>p{
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.nameapp-left-content>p:last-child{
+    color: #007DFC;
+}
+
+.nameapps-button{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+    
+}
+.nameapps-button>button{
+    border: none;
+    outline: none;
+}
+.nameapps-button>button>img{
+    width: 10.16rem;
+    height: 47px;
+}

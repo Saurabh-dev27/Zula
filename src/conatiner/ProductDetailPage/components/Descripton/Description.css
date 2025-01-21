@@ -1,0 +1,37 @@
+.description{
+    display: flex;
+width: 100%;
+padding: 24px 80px;
+justify-content: center;
+align-items: center;
+gap: 80px;
+border-top: 1px solid  #E4E9EC;
+border-bottom: 1px solid  #E4E9EC;
+}
+.description-content{
+    font-family: "Plus Jakarta Sans";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description>span{
+    width: 2px;
+    height: 36px;
+    border-left: 2px solid #E4E9EC;
+    opacity: 60%;
+    /* background-color:#989B9D ; */
+    
+}
+.description-content>h2{
+    font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+}
+.description-content>p{
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+color: #989B9D;
+}

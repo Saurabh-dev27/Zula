@@ -1,0 +1,111 @@
+.AboutDesc{
+    width: 100%;
+    display: flex;
+padding: 40px 80px;
+align-items: flex-start;
+gap: 24px;
+}
+.Desc-left{
+    width: 50%;
+    height: 574px;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+flex: 1 0 0;
+}
+.Desc-left>span{
+    width: 100%;
+    border-top: 2px solid #E4E9EC;
+    
+}
+.Desc-left-upper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Desc-left-upper>h2{
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.Desc-left-upper>p{
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.Desc-left-down{
+    width: 100% ;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Desc-left-down>h2{
+    font-family: "Plus Jakarta Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+.Desc-left-down-lower{
+    display: flex;
+}
+.Desc-left-down-lower-left,.Desc-left-down-lower-middle,
+.Desc-left-down-lower-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.Desc-left-down-lower-left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.Desc-left-down-lower-left-content>h4{
+    color: var(--Base-100, #0A0A0A);
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+}
+.Desc-left-down-lower-left-content>p{
+    color: var(--Base-60, #989B9D);
+    /* Body/14/Medium */
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.Desc-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Desc-right>h2{
+    color: var(--Base-100, #0A0A0A);
+/* Heading/Heading 5 */
+font-family: "Plus Jakarta Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+}
+.Desc-right>p{
+    color: var(--Base-100, #0A0A0A);
+/* Body/16/Medium */
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+}

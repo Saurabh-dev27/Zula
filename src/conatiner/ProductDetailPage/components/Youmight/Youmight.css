@@ -1,0 +1,109 @@
+.youmight {
+  width: 100%;
+  /* height: 314px; */
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  gap: 24px;
+  /* background-color: aqua; */
+  margin-bottom: 5rem;
+}
+.youmight-header {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+}
+.youmight-header > h2 {
+  color: var(--Base-100, #0a0a0a);
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.youmight-header > button {
+  /* width: 72px;
+  height: 20px; */
+  padding: 16px 20px;
+  display: flex;
+  /* padding: 16px 20px; */
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: var(--Base-100, #0a0a0a);
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  background-color: #fff;
+}
+.youmight-cardDiv {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  gap: 10px;
+}
+.youmight-card {
+  display: flex;
+  flex-direction: column;
+  width: 10.1rem;
+  height: 230px;
+  gap: 12px;
+  /* background-color: red; */
+}
+
+.youmight-imgdiv {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-self: stretch;
+  /* border-radius: 12px; */
+}
+.youmight-imgdiv > img {
+  width: 100%;
+  height: 150px;
+  border-radius: 12px;
+}
+.youmight-card-lower-div {
+  display: flex;
+  width: 10.1rem;
+  height: 68px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  padding: 0px 4px;
+}
+.youmight-card-lower-div > h2 {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  color: var(--Base-100, #0a0a0a);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+.youmight-card-lower-div > p,
+span {
+  width: 100%;
+  height: 18px;
+  overflow: hidden;
+  color: var(--Base-100, #0a0a0a);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}

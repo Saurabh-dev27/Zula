@@ -1,0 +1,189 @@
+.app-brain-promote {
+  width: 100%;
+  padding: 64px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 72px;
+  position: relative;
+  /* top: 16rem; */
+  border-radius: 32px;
+  background-color: #f6f8fb;
+}
+.appbrain-upper {
+  width: 33.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.appbrain-upper > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0a0a0a;
+}
+.appbrain-upper > p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #989b9d;
+}
+.appbrain-lower {
+  width: 100%;
+  height: 34rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* background-color: aqua; */
+  align-items: center;
+  gap: 32px;
+}
+
+.appbrain-lower-cards {
+  display: flex;
+  width: 100%;
+  height: 33.3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.appbrain-lower-cards1 {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+}
+.appbrain-lower-cards2 {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+}
+.appbrain-lower-cards-individual {
+  width: 22.3rem;
+  height: 13.2rem;
+  padding: 32px 32px;
+  background-color: #ffffff;
+  border-radius: 32px;
+  gap: 24px;
+}
+.appbrain-lower-cards-individual > img {
+  width: 48px;
+  height: 48px;
+}
+.appbrain-lower-cards-individual > h3 {
+  font-family: "Plus Jakarta Sans";
+  color: #0a0a0a;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.appbrain-lower-cards-individual > p {
+  font-family: "Plus Jakarta Sans";
+  margin-top: 0.7rem;
+  /* width: 20.3rem; */
+  color: #989b9d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.appbrain-lower-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0a0a0a; */
+}
+
+.appbrain-lower-button > button {
+  width: 7.1rem;
+  height: 3.2rem;
+  color: #0a0a0a;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #e4e9ec;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+/* -----------------------------------media queries------------ */
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  .app-brain-promote {
+    top: 16rem;
+  }
+  .appbrain-upper {
+    width: 100%;
+  }
+  .appbrain-upper > h2 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .appbrain-upper > p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .appbrain-lower {
+    height: auto;
+   
+  }
+  .appbrain-lower-cards {
+
+    width: 100%;
+    height: auto;
+   
+  }
+  /* .appbrain-lower-cards1 {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 24px;
+  } */
+
+  .appbrain-lower-cards2 {
+    display: none;
+  }
+  .appbrain-lower-cards-individual {
+    display: none;
+   
+   
+   
+  }
+  .appbrain-lower-cards-individual:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  gap: 0px;
+   
+   
+  }
+  .appbrain-lower-cards-individual > p {
+    font-size: 15px;
+    
+  }
+}
+
+/* Mobile (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablet and Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* Larger desktops */
+@media (min-width: 1280px) {
+}

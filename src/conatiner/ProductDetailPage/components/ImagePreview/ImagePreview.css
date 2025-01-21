@@ -1,0 +1,22 @@
+.image-preview{
+    width: 100%;
+    display: flex;
+
+padding: 40px 80px;
+/* background-color: brown; */
+justify-content: center;
+gap: 12px ;
+
+}
+.image-preview>img{
+    width: 13.3rem;
+    height: 498px;
+
+}
+/* .image-preview-images{
+    width: 100%;
+    display: flex;
+    width: 230px;
+    height: 498px;
+    background-color: aqua;
+} */

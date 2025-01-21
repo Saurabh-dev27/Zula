@@ -1,0 +1,24 @@
+.viewAllBtn{
+    
+        width: 6.31rem;
+        height: 52px;
+        border-radius: 100px;
+        border: 1px solid #E4E9EC;
+        padding: 1rem 1.25rem;
+        background-color: #ffffff;
+        gap: 0.5rem;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20.16px;
+    
+}
+@media (max-width: 480px) {
+        .viewAllBtn{
+    
+                width: 5.81rem;
+                height: 44px;
+                padding: 0.75rem 1rem;
+            
+        }  
+    
+}

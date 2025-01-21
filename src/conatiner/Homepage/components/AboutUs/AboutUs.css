@@ -1,0 +1,136 @@
+.aboutUs {
+  width: 100%;
+  display: flex;
+  height: 470px;
+  position: relative;
+  /* top: 15rem; */
+  gap: 6rem;
+  align-items: center;
+}
+.aboutUs-left {
+  /* background-color: aqua; */
+  width: 39.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.aboutUs-left-upper {
+  width: 39.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 1rem;
+}
+.aboutUs-left-upper > h2 {
+  width: 34.1rem;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0a0a0a;
+}
+.aboutUs-left-upper > p {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #989b9d;
+}
+.aboutUs-left-down {
+  width: 339px;
+  height: 52px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.aboutUs-left-down > button {
+  display: flex;
+  padding: 16px 20px;
+  gap: 8px;
+  border-radius: 100px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  border: 1px solid #e4e9ec;
+}
+.aboutUs-left-down > btn1 {
+  background-color: #e4e9ec;
+}
+.aboutUs-left-down .btn2 {
+  background-color: #0a0a0a;
+  border: none;
+  color: #e4e9ec;
+}
+
+.aboutUs-right-img{
+    /* width:461px ; */
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+/* -----------------------------------media queries------------ */
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  .aboutUs {
+flex-direction: column;
+    top: 15rem;
+    height: auto;
+    
+}
+.aboutUs-left,.aboutUs-left-upper {
+  width: 100%;
+justify-content: center;
+  
+}
+.aboutUs-left-upper > h2 {
+  width: auto;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+
+}
+.aboutUs-left-upper > p {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+.aboutUs-left-down {
+  width:100%;
+  height: auto;
+ flex-direction: column;
+}
+.aboutUs-left-down > button {
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.aboutUs-right-img{
+  width: auto;
+  height: 21.87rem;
+  object-fit: cover;
+  
+}
+
+}
+
+/* Mobile (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablet and Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* Larger desktops */
+@media (min-width: 1280px) {
+}
+

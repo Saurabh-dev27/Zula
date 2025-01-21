@@ -1,0 +1,152 @@
+.hero-container {
+  width: 100%;
+  /* height: 544px; */
+  position: relative;
+  display: flex;
+  padding: 40px 80px;
+  gap: 10px;
+  /* background-color: red; */
+}
+
+.hero-inner {
+  width: 100%;
+  height: 464px;
+  border-radius: 32px;
+  /* display: flex; */
+  /* justify-content: center; */
+  gap: 24px;
+  position: relative;
+  background-color: #f6f8fb;
+}
+
+.heroImage-container {
+  position: relative;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 32px;
+  top: 45px;
+  /* background-color: red; */
+}
+
+.dice-image {
+  width: 41.125rem;
+  height: 418px;
+  position: relative;
+  left: -287px;
+  top: 136px;
+  object-fit: cover;
+}
+
+.sword-image {
+  width: 24.37rem;
+  height: 273px;
+  scale: 1.75;
+  position: relative;
+  right: -78px;
+  top: 174px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* z-index: 10; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+.hero-text > h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  color: #007dfc;
+}
+
+.hero-text > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #989b9d;
+  position: relative;
+  top: 10px;
+}
+
+/* -----------------------------------media queries------------ */
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  .hero-container {
+    padding: 2rem 1.5rem ;
+    /* background-color: red; */
+  }
+
+  .hero-inner {
+    /* height: 2.22rem; */
+    height: 22.62rem;
+    padding-top: 4rem;
+    padding-bottom: 8.3rem;
+  }
+
+  .heroImage-container {
+    top: 5.8rem;
+  
+  }
+
+  .dice-image {
+    width: 20.25rem;
+    height: 12.75rem;
+    /* position: relative; */
+    left: -8.5rem;
+    top: 5.25rem;
+    /* object-fit: cover; */
+    /* scale: 1.25; */
+  }
+
+  .sword-image {
+    width: 11.8rem;
+    height: 8.37rem;
+    position: relative;
+    right:10.81rem;
+    top: 5.31rem;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: -4rem;
+    text-align: center;
+    padding: 0px 4rem;
+  }
+
+  .hero-text > h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero-text > p {
+    font-size: 16px;
+    line-height: 20px;
+    top: 10px;
+    /* margin: 0px 10px; */
+  }
+}
+
+/* Mobile (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablet and Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* Larger desktops */
+@media (min-width: 1280px) {
+}

@@ -1,0 +1,138 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8fb;
+  font-family: "Plus Jakarta Sans";
+}
+.footer-above {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #e4e9ec;
+  padding: 40px 80px;
+  /* background-color: aqua; */
+}
+.footer-above-left {
+  display: flex;
+  width: 954px;
+  align-items: flex-start;
+  gap: 24px;
+}
+.footer-links > h2 {
+  color: #0a0a0a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.footer-links {
+  width: 302px;
+  height: 178px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links > ul {
+  display: flex;
+  width: 302px;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  /* background-color: red; */
+}
+.footer-links > ul > li {
+  display: flex;
+  flex-direction: column;
+  color: #989b9d;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.footer-above-right {
+  display: flex;
+  flex-direction: column;
+  width: 215px;
+  gap: 20px;
+}
+.footer-above-right > h2 {
+  color: #0a0a0a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+  width: 56px;
+  height: 56px;
+}
+.footer-below {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: 40px 80px;
+}
+.footer-below > p {
+  color: #989b9d;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+/* -----------------------------------media queries------------ */
+/* Mobile (portrait) */
+@media (max-width: 480px) {
+  .footer{
+    position: relative;
+    top: 18rem;
+  }
+  .footer-above {
+    /* flex-direction: column; */
+    padding: 32px 24px;
+  }
+  .footer-above-left {
+/* flex-direction: column; */
+
+width:100%;
+flex-wrap: wrap;
+    
+  }
+  .footer-links {
+    width: 46%;
+    height: 178px;
+    background-color: red;
+  }
+  .footer-above-right {
+    width: 46%;
+    background-color: #0a0a0a;
+    top: 10rem;
+  }
+
+}
+
+/* Mobile (landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablet and Laptop */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* Larger desktops */
+@media (min-width: 1280px) {
+}
+
+
