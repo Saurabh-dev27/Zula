@@ -12,6 +12,7 @@ import AppMonetize from "../AppMonetize/AppMonetize";
 import AppBrain from "../AppBrain/AppBrain";
 import AppBrainIntel from "../AppBrainIntel/AppBrainIntel";
 import Footer from "../../../../components/Footer/Footer";
+import Getbtn from "../../../../components/Getbtn/Getbtn";
 const HeroApp = () => {
   // console.log('-------data',data);
   
@@ -26,6 +27,7 @@ const HeroApp = () => {
         <div className="hero-cards">
           <div className="hero-main-card">
             <img className="main-img" src={mainData.image} alt="image1" />
+            <div className="gradient"/>
             <div className="card-container">
               <div className="card-container-left">
                 <img src={mainData.icon} alt="" />
@@ -34,12 +36,13 @@ const HeroApp = () => {
                   <p>{mainData.company}</p>
                 </div>
               </div>
-              <button>Get</button>
+              <Getbtn/>
             </div>
           </div>
           <div className="hero-secondary-card">
             <div className="secondary-card-one">
               <img className="" src={data[0].image} alt="image1" />
+              <div className="gradient gradient-secondary-upper"/>
               <div className="secondary-card-container">
                 <div className="secondary-card-container-left">
                   <img src={data[0].icon} alt="" />
@@ -54,6 +57,7 @@ const HeroApp = () => {
             <div className="secondary-card-other">
               <div className="seconadry-card-other-one">
                 <img className="" src={data[1].image} alt="image1" />
+                <div className="gradient gradient-secondary-down1"/>
                 <div className="secondary-card-container cardchange">
                   <div className="secondary-card-container-left">
                     <img src={data[1].icon} alt="" />
@@ -68,6 +72,7 @@ const HeroApp = () => {
               <div className="secondary-card-other-two">
                 {" "}
                 <img className="" src={data[2].image} alt="image1" />
+                <div className="gradient gradient-secondary-down2"/>
                 <div className="secondary-card-container cardchange">
                   <div className="secondary-card-container-left">
                     <img src={data[2].icon} alt="" />

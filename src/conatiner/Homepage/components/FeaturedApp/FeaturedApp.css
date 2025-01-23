@@ -9,7 +9,7 @@
 }
 .featuredApp-left {
   width: 38rem;
-  height: 468rem;
+  height: 468px;
   gap: 2rem;
 }
 .featuredApp-left-top {
@@ -102,10 +102,11 @@
   border-radius: 24px;
   overflow: hidden;
   display: flex;
+  background-color: #ffbd14;
 }
 .featuredApp-right > img {
-  width:56rem;
-  height: 468px;
+  /* width:56rem; */
+  /* height: 468px; */
   position: relative;
   left: -119px;
   border-radius: 12px;
