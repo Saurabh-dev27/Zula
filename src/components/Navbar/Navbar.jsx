@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="btn-container">
           <button className="login">Login</button>
           <button className="register">
-            Register <IoIosArrowRoundForward size={30} />
+            Register <IoIosArrowRoundForward className="search-arrow" />
           </button>
         </div>
       </div>

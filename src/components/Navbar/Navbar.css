@@ -7,7 +7,7 @@
   height: 120px;
   display: flex;
   justify-content: space-between;
-  padding: 32px 80px 32px 80px;
+  padding: 32px 80px;
 }
 .hamburger {
   width: 3.5rem;
@@ -22,7 +22,7 @@
 }
 /* left container */
 .nav-left {
-  width: 35.25rem;
+  width: 38%;
   height: 56px;
   gap: 80px;
   display: flex;
@@ -38,7 +38,7 @@
   display: flex;
   list-style: none;
   cursor: pointer;
-  width: 26.75rem;
+  width: 75%;
   height: 52px;
 }
 .menu > li {
@@ -47,8 +47,8 @@
   gap: 10px;
   opacity: 0px;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   font-family: "Plus Jakarta Sans", serif;
 
   color: #babec1;
@@ -60,13 +60,13 @@ li:hover {
 /* navbar right container */
 .nav-right {
   height: 52px;
-  width: 33.81;
+  width: 37.5%;
   gap: 32px;
   display: flex;
 }
 .searchbar {
   /* background-color: ; */
-  width: 16.8rem;
+  width: 49.7%;
   height: 52px;
   border-radius: 100px;
   border: 1px solid #e4e9ec;
@@ -80,12 +80,12 @@ li:hover {
   border: none;
   outline: none;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size:1rem;
+  line-height:1.25rem;
   font-family: "Plus Jakarta Sans", serif;
 }
 .btn-container {
-  width: 15rem;
+  width: 44.3%;
   height: 52px;
   gap: 16px;
   display: flex;
@@ -94,20 +94,32 @@ li:hover {
   height: 52px;
   border-radius: 100px;
   border: 1px solid #e4e9ec;
-  padding: 16px 24px;
   gap: 8px;
   font-weight: 600;
   display: flex;
-  font-size: 16px;
-  line-height: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.25rem;
   font-family: "Plus Jakarta Sans", serif;
+}
+.login{
+  padding: 16px 24px;
+  width: 37.9%;
+}
+.search-arrow{
+  width: 20px;
+  height: 20px;
 }
 
 .register {
+  width: 55.5%;
   background-color: #0a0a0a;
   color: #ffffff;
+  padding: 16px 20px;
   display: flex;
   align-items: center;
+
 }
 
 /* -----------------------------media queries--------------- */
@@ -131,6 +143,14 @@ li:hover {
     display: none;
   }
   .nav-left {
+    width: 100%;
+    /* height: 56px; */
+    /* background-color: red; */
+    justify-content: space-between;
+    /* gap: ; */
+    
+  }
+  .nav-right {
     width: 100%;
     /* height: 56px; */
     /* background-color: red; */

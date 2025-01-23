@@ -4,6 +4,7 @@
     gap: 2rem;
     position: relative;
     /* top: 7rem; */
+    /* background-color: blue; */
 
 }
 .topAppDeals-upper{
@@ -44,7 +45,7 @@ top: 2rem;
     border-radius: 12px;
 }
 .topAppDeal-containers-middle{
-    width: 14.83rem;
+    width: 12rem;
     height: 68px;
     display: flex;
     flex-direction: column;
@@ -116,7 +117,8 @@ font-weight: 600;
         
     }
     .topAppDeal-containers{
-        width: auto;
+        /* width: auto; */
+        justify-content: space-between;
        
         gap: 5px;
      

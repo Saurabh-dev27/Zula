@@ -42,8 +42,8 @@ const Footer = () => {
                 <h2>Connect With Us</h2>
                 <div className='social-icons'>
                     <img src={socialImage1} alt="social_images" />
-                    <img src={socialImage2} alt="social_images1" />
-                    <img src={socialImage3} alt="social_images2" />
+                    <img src={socialImage2} className='social2' alt="social_images1" />
+                    <img src={socialImage3} className='social3' alt="social_images2" />
                 </div>
             </div>
         </div>
